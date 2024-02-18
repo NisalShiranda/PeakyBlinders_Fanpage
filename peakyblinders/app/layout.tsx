@@ -1,14 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import localfont from "next/font/local"
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const aly = localfont({
-  src: "../app/font/local-fonts/Alycidon-Condensed.otf",
-  variable: "--font-aly",
-});
+
 
 
 export const metadata: Metadata = {
@@ -22,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={$('')}>
+    <html lang="en" className={('')}>
       <body className={inter.className}>{children}</body>
     </html>
   );

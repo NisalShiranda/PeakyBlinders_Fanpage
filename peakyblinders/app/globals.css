@@ -3,14 +3,3 @@
 @tailwind utilities;
 
 
-.hero-section::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  /* background: linear-gradient(to bottom, transparent, black); */
-  opacity: 1; /* Adjust the opacity as needed */
-  background-color: rgba(0, 0, 0, 0.5);
-}
