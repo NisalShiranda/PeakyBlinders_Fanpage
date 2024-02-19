@@ -11,7 +11,7 @@ export default function Home() {
           alt="Picture of the author"
           quality={100}
         />
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center">
+      <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center text-white text-center text-xl">
         <p>Peaky Blinders</p>
       </div>
     </div>
