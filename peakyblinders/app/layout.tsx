@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import {Bebas_Neue} from "next/font/google";
 
 import "./globals.css";
 import "./styles.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const bebasNeue = Bebas_Neue({ subsets: ["latin-"] });
 
 
 
