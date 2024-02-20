@@ -39,34 +39,58 @@ export default function Home() {
             quality={100}
             />
             </div>
-            <div>Nisal Shiranda</div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className=" text-[6px] sm:text-xs md:text-sm lg:text-lg xl:text-3xl">Cillian Murphy</p>
+              <p className="hero text-[6px] sm:text-[8px] xl:text-2xl ">Tommy Shelby</p>
+            </div>
           </div>
           <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96">
-          <Image className=' p-0.5'
+            <div>
+            <Image className=' p-0.5'
             src="/person2.jpg"
             width={5000000}
             height={500000}
             alt="Picture of the author"
             quality={100}
             />
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className=" text-[6px] sm:text-xs md:text-sm lg:text-lg xl:text-3xl">Paul Anderson</p>
+              <p className="hero text-[6px] sm:text-[8px] xl:text-2xl ">Arthur Shelby</p>
+            </div>
+         
           </div>
           <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96 ">
-          <Image className=' p-0.5'
+            <div>
+            <Image className=' p-0.5'
             src="/person3.jpg"
             width={5000000}
             height={500000}
             alt="Picture of the author"
             quality={100}
             />
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className=" text-[6px] sm:text-xs md:text-sm lg:text-lg xl:text-3xl">Helen McCrory</p>
+              <p className="hero text-[6px] sm:text-[8px] xl:text-2xl ">Polly Gray</p>
+            </div>
+          
           </div>
           <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96">
-          <Image className=' p-0.5'
+            <div>
+            <Image className=' p-0.5'
             src="/person4.jpg"
             width={5000000}
             height={500000}
             alt="Picture of the author"
             quality={100}
             />
+            </div>
+            <div className="flex flex-col justify-center items-center text-center">
+              <p className=" text-[6px] sm:text-xs md:text-sm lg:text-lg xl:text-3xl">Natasha O'Keeffe</p>
+              <p className="hero text-[6px] sm:text-[8px] xl:text-2xl ">Lizzie Shelby</p>
+            </div>
+          
           </div>
         </div>
         
