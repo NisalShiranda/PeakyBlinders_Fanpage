@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 
+.hero{
+
+    font-family: 'alycidon', sans-serif;
+}

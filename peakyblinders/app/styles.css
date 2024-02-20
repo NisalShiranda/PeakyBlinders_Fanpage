@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'alycidon';
+  src: url('/Alycidon-Condensed.otf') format('otf'),
+       url('/Alycidon-Condensed.otf') format('otf');
+  /* Add more source declarations if needed for different formats */
+  font-weight: thin;
+  font-style: thin;
+}
