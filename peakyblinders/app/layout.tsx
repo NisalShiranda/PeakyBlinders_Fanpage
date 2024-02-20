@@ -1,12 +1,23 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import {Bebas_Neue} from "next/font/google";
+import { Inter,Bebas_Neue,Padauk } from "next/font/google";
+
 
 import "./globals.css";
 import "./styles.css";
 
-const inter = Inter({ subsets: ["latin"] });
-const bebasNeue = Bebas_Neue({ subsets: ["latin-"] });
+
+
+const bebas_init = Bebas_Neue({ 
+  subsets: ["latin"],
+  weight:['400'],
+  variable:'--font-bebas'
+});
+
+const paduk_init = Padauk({
+  subsets: ["latin"],
+  weight:'700',
+  variable:'--font-padauk'
+});
 
 
 
@@ -23,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={('')}>
-      <body className={inter.className}>{children}</body>
+      <body className={'${bebas_init.variable} ${paduk_init.variable}'}>{children}</body>
     </html>
   );
 }

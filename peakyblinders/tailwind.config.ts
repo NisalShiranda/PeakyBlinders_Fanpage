@@ -14,7 +14,9 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        aly: ['var(--font-aly)']
+        aly: ['var(--font-aly)'],
+        bebas: ['var(--font-bebas)'],
+        paduka: ['var(--font-padauk)'],
       }
     },
   },

@@ -13,7 +13,8 @@ export default function Home() {
         />
       <div className=" absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center ">
         <p className="hero  text-gray-200 text-center text-5xl font-thin min-[375px]:text-6xl min-[425px]:text-7xl min-[500px]:text-8xl sm:text-9xl min-[900px]:text-[150px] lg:text-[200px] xl:text-[250px] 2xl:text-[300px] ">Peaky Blinders</p>
-        <p className=" font-serif text-[5px]  text-gray-400 text-center px-5 ">Welcome, Peaky Blinders enthusiasts, to a place where the razor-sharp style meets the gritty streets of Birmingham! This is your ultimate destination for all things Peaky Blinders, a fan page dedicated to celebrating the gripping saga of the Shelby family.</p>
+        <p className="font-serif text-xl  text-gray-400 text-center px-5">Welcome, Peaky Blinders enthusiasts, to a place where the razor-sharp style meets the gritty streets of Birmingham! This is your ultimate destination for all things Peaky Blinders, a fan page dedicated to celebrating the gripping saga of the Shelby family.</p>
+        <p className="bebas text-white text-sm">Nisal Shiranda</p>
       </div>
     </div>
     
