@@ -39,11 +39,35 @@ export default function Home() {
             quality={100}
             />
             </div>
-            <div></div>
+            <div>Nisal Shiranda</div>
           </div>
-          <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96">2</div>
-          <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96 ">3</div>
-          <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96">4</div>
+          <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96">
+          <Image className=' p-0.5'
+            src="/person2.jpg"
+            width={5000000}
+            height={500000}
+            alt="Picture of the author"
+            quality={100}
+            />
+          </div>
+          <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96 ">
+          <Image className=' p-0.5'
+            src="/person3.jpg"
+            width={5000000}
+            height={500000}
+            alt="Picture of the author"
+            quality={100}
+            />
+          </div>
+          <div  className="bg-white h-24 w-16 sm:w-24 sm:h-36 md:w-32 md:h-48 lg:w-44 lg:h-64 xl:w-52 xl:h-80 2xl:w-64 2xl:h-96">
+          <Image className=' p-0.5'
+            src="/person4.jpg"
+            width={5000000}
+            height={500000}
+            alt="Picture of the author"
+            quality={100}
+            />
+          </div>
         </div>
         
         
